@@ -6,3 +6,29 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+* {
+  margin: 0; //removes default margins
+  padding: 0; //removes default paddings
+  box-sizing: border-box; //div elements will include padding and border within the div itslef. /* With box-sizing: border-box, total width 200px includes 40px padding + 10px border, so content width is 150px */
+}
+
+body {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 133, 0.8)
+    ),
+    url(../img/hero.jpg); //to right bottom to move the gradient towards right bottom corner
+  background-size: cover; //to make the background cover where it is within Ex:this BG covers the viewpoert 95vh
+  background-position: top; //while shrinking or expanding the browser top are wont get fade. other ones : bottom and center
+}
