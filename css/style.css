@@ -32,6 +32,4 @@ body {
     url(../img/hero.jpg); /*to right bottom to move the gradient towards right bottom corner*/
   background-size: cover; /*to make the background cover where it is within Ex:this BG covers the viewpoert 95vh*/
   background-position: top; /*while shrinking or expanding the browser top are wont get fade. other ones : bottom and center*/
-
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
