@@ -32,6 +32,42 @@ body {
     url(../img/hero.jpg); /*to right bottom to move the gradient towards right bottom corner*/
   background-size: cover; /*to make the background cover where it is within Ex:this BG covers the viewpoert 95vh*/
   background-position: top; /*while shrinking or expanding the browser top are wont get fade. other ones : bottom and center*/
-
+  position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
 }
